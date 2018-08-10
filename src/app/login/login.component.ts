@@ -16,17 +16,9 @@ export class LoginComponent extends PainelComponent implements OnInit {
     var email: any;
     var telefone: any;
     var senha: any;
-    
-    var painel1 = new PainelComponent();
-
+  
     email = (document.getElementById("inputEmail") as HTMLInputElement).value;
     senha = (document.getElementById("inputPassword") as HTMLInputElement).value;
-    
-  console.log("Passou");
-    for(var i=0; i < painel1.arry.length; i++){
-      console.log(painel1.arry[i]);
- 
-     }
     
   }
   ngOnInit() {
