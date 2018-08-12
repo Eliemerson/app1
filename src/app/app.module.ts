@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
 import { CalculoComponent } from './calculo/calculo.component';
+import { PodutosComponent } from './podutos/podutos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CalculoComponent } from './calculo/calculo.component';
     PainelComponent,
     LoginComponent,
     HomeComponent,
-    CalculoComponent
+    CalculoComponent,
+    PodutosComponent
   ],
   imports: [
     BrowserModule,

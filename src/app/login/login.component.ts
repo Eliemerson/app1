@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PainelComponent } from 'src/app/painel/painel.component';
-import { spawn } from 'child_process';
+
 
 @Component({
   selector: 'app-login',
